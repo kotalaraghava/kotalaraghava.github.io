@@ -147,6 +147,33 @@ body {
     margin-bottom: 36px;
 }
 
+.hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.hero-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 18px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--primary);
+    background: var(--primary-light);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all var(--transition);
+}
+
+.hero-link:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+}
+
 .hero-actions {
     display: flex;
     gap: 16px;
